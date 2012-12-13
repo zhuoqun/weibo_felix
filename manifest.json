@@ -1,0 +1,13 @@
+{
+  "name": "Weibo Felix",
+  "version": "0.1",
+  "manifest_version": 2,
+  "description": "Fix weibo, Felix!",
+  "browser_action": {
+    "default_icon": "",
+    "default_popup": ""
+  },
+  "permissions": [
+    "http://weibo.com"
+  ]
+}
