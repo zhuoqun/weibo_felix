@@ -4,6 +4,10 @@
   "manifest_version": 2,
   "description": "Fix-Weibo, Felix!",
   "browser_action": {
+    "default_icon": {
+      "19": "images/icon19.png",
+      "38": "images/icon38.png"
+    },
     "default_title": "Weibo Felix",
     "default_popup": "popup.html"
   },
