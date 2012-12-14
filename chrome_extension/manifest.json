@@ -4,6 +4,8 @@
   "manifest_version": 2,
   "description": "Fix-Weibo, Felix!",
   "browser_action": {
+    "default_title": "Weibo Felix",
+    "default_popup": "popup.html"
   },
   "content_scripts": [{
     "matches": ["*://weibo.com/*"],
