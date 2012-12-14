@@ -2,12 +2,16 @@
   "name": "Weibo Felix",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Fix weibo, Felix!",
+  "description": "Fix-Weibo, Felix!",
   "browser_action": {
-    "default_icon": "",
-    "default_popup": ""
   },
+  "content_scripts": [{
+    "matches": ["*://weibo.com/*"],
+    "css": ["weibo_felix.css"],
+    "js": ["jquery-1.8.3.min.js", "weibo_felix.js"]
+  }],
   "permissions": [
-    "http://weibo.com"
+    "webRequest",
+    "<all_urls>"
   ]
 }
