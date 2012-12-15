@@ -28,6 +28,8 @@
 ul[node-type="feed_type_tabs"], /* 微博/动态 tab */
 .layer_guide, /* 用户引导 */
 .function_guide, /* 用户引导 */
+.W_level_ico, /* 用户等级 */
+.footer_adv, /* 底部广告 */
 
 /*---------------------- profile -------------------------*/
 
@@ -40,7 +42,9 @@ ul[node-type="feed_type_tabs"], /* 微博/动态 tab */
 #pl_profile_extraInfo a, /* 申请认证 */
 .tags a[node-type="infoSlide"], /* 申请认证 */
 .icon_bed[node-type="level"], /* 等级 */
-ul[node-type="feed_adv_tabs"] /* 微博/动态 tab */
+ul[node-type="feed_adv_tabs"], /* 微博/动态 tab */
+#pl_profile_hisInfo .pf_icon, /* 会员等图标 */
+#pl_profile_extraInfo /* 认证信息等 */
 {
   display: none !important;
 }
@@ -53,11 +57,24 @@ ul[node-type="feed_adv_tabs"] /* 微博/动态 tab */
   margin-top: 20px !important;
 }
 
+.WB_global_nav .gn_bg {
+  background: none !important;
+}
+
+.WB_global_nav .gn_search {
+  margin-left: 165px !important;
+}
+
 #plc_profile_header {
   position: absolute !important;
   top: 150px !important;
   left: 100px !important;
   width: 360px !important;
+  z-index: 999 !important;
+}
+
+#plc_profile_header .profile_top {
+  background: transparent !important;
 }
 
 #plc_profile_header .pf_head {
@@ -65,10 +82,39 @@ ul[node-type="feed_adv_tabs"] /* 微博/动态 tab */
   box-shadow: none !important;
   margin-top: 18px !important;
   margin-right: 18px !important;
-  min-height: 400px !important;
   padding: 10px !important;
 }
 
 #plc_profile_header .pf_info {
   position: absolute !important;
+  z-index: 99 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  left: 150px !important;
+  top: -100px !important;
+}
+
+#pl_profile_photo .pf_head_pic, #pl_profile_photo img {
+  width: 108px !important;
+  height: 108px !important;
+}
+
+#plc_profile_header .pf_info_left_border {
+  width: 200px !important;
+  border: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.profile_top .pf_tags .tags {
+  text-overflow: ellipsis !important;
+}
+
+.profile_top .pf_head .user_atten {
+  margin-top: 20px !important;
+}
+
+.profile_top .pf_head .user_atten li {
+  border: none !important;
+  text-align: left !important;
 }

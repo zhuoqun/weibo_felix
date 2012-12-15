@@ -13,6 +13,7 @@
   },
   "content_scripts": [{
     "matches": ["*://weibo.com/*"],
+    "exclude_matches": ["*://weibo.com/messages*"],
     "js": ["jquery-1.8.3.min.js", "weibo_felix.js"],
     "run_at": "document_start"
   }],
