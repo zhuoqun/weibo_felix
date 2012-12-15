@@ -44,6 +44,7 @@ ul[node-type="feed_type_tabs"], /* 微博/动态 tab */
 .icon_bed[node-type="level"], /* 等级 */
 ul[node-type="feed_adv_tabs"], /* 微博/动态 tab */
 #pl_profile_hisInfo .pf_icon, /* 会员等图标 */
+#pl_profile_myInfo .pf_icon, /* 会员等图标 */
 #pl_profile_extraInfo /* 认证信息等 */
 {
   display: none !important;
