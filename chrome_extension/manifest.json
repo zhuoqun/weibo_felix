@@ -8,16 +8,24 @@
       "19": "images/icon19.png",
       "38": "images/icon38.png"
     },
-    "default_title": "Weibo Felix",
+    "default_title": "微博快修",
     "default_popup": "popup.html"
   },
   "content_scripts": [{
     "matches": ["*://weibo.com/*"],
-    "css": ["weibo_felix.css"],
-    "js": ["jquery-1.8.3.min.js", "weibo_felix.js"]
+    "js": ["jquery-1.8.3.min.js", "weibo_felix.js"],
+    "run_at": "document_start"
   }],
+  "background": {
+    "scripts": ["event_page.js"],
+    "persistent": false
+  },
   "permissions": [
-    "webRequest",
-    "<all_urls>"
+    "tabs",
+    "http://*/*",
+    "https://*/*"
+  ],
+  "web_accessible_resources": [
+    "weibo_felix.css"
   ]
 }
