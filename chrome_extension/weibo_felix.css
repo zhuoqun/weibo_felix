@@ -66,10 +66,14 @@ ul[node-type="feed_adv_tabs"], /* 微博/动态 tab */
   margin-left: 165px !important;
 }
 
+.W_profile {
+  position: relative !important;
+}
+
 #plc_profile_header {
   position: absolute !important;
-  top: 150px !important;
-  left: 100px !important;
+  top: 110px !important;
+  left: -20px !important;
   width: 360px !important;
   z-index: 999 !important;
 }
