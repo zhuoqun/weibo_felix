@@ -1,8 +1,8 @@
 {
-  "name": "Weibo Felix",
+  "name": "微博快修 Weibo Felix",
   "version": "0.1",
   "manifest_version": 2,
-  "description": "Fix-Weibo, Felix!",
+  "description": "帮你简化新版微博界面。 Fix-Weibo, Felix!",
   "browser_action": {
     "default_icon": {
       "19": "images/icon19.png",
