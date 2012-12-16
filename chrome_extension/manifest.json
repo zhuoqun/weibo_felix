@@ -1,8 +1,13 @@
 {
   "name": "微博快修 Weibo Felix",
-  "version": "0.1",
+  "version": "0.1.2",
   "manifest_version": 2,
   "description": "帮你简化新版微博界面。 Fix-Weibo, Felix!",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
   "browser_action": {
     "default_icon": {
       "19": "images/icon19.png",
