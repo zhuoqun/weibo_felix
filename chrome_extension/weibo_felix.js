@@ -4,7 +4,7 @@ chrome.extension.onMessage.addListener( function(req) {
   } else {
     if ($('#chrome_weibo_felix').length <= 0) {
       var link = document.createElement("link");
-      link.href = chrome.extension.getURL("weibo_felix.css");
+      link.href = chrome.extension.getURL("weibo_felix-0_1_4.css");
       link.type = "text/css";
       link.rel = "stylesheet";
       link.id = "chrome_weibo_felix";
