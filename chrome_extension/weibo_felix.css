@@ -50,6 +50,11 @@ ul[node-type="feed_adv_tabs"], /* 微博/动态 tab */
   display: none !important;
 }
 
+#pl_leftnav_group .level_2_Box[node-type="groupList"] .levmore /* 分组展开 */
+{
+  display: block !important;
+}
+
 /*---------------------- customize profile page -------------------------*/
 
 .W_profile_bg {
