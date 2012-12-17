@@ -1,6 +1,6 @@
 {
   "name": "微博快修 Weibo Felix",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "manifest_version": 2,
   "description": "帮你简化新版微博界面。 Fix-Weibo, Felix!",
   "icons": {
