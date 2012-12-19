@@ -5,7 +5,7 @@
 	<key>Author</key>
 	<string>Joe Wang</string>
 	<key>Builder Version</key>
-	<string>8536.28.4</string>
+	<string>8536.28.7</string>
 	<key>CFBundleDisplayName</key>
 	<string>微博快修</string>
 	<key>CFBundleIdentifier</key>
@@ -13,9 +13,9 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.1.2</string>
+	<string>0.1.5</string>
 	<key>CFBundleVersion</key>
-	<string>0.1.2</string>
+	<string>0.1.5</string>
 	<key>Chrome</key>
 	<dict/>
 	<key>Content</key>
@@ -24,7 +24,7 @@
 		<dict/>
 		<key>Stylesheets</key>
 		<array>
-			<string>weibo_felix.css</string>
+			<string>weibo_felix-0_1_5.css</string>
 		</array>
 	</dict>
 	<key>ExtensionInfoDictionaryVersion</key>
@@ -41,5 +41,7 @@
 			<string>Some</string>
 		</dict>
 	</dict>
+	<key>Update Manifest URL</key>
+	<string>https://raw.github.com/tualatrix/weibo_felix/master/weibo_felix.safariextension/Update.plist</string>
 </dict>
 </plist>
