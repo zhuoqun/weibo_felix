@@ -109,7 +109,7 @@ ul[node-type="feed_adv_tabs"], /* 微博/动态 tab */
   height: 108px !important;
 }
 
-#plc_profile_header .pf_info_left_border {
+#plc_profile_header .pf_info_left, #plc_profile_header .pf_info_left_border {
   width: 200px !important;
   border: none !important;
   margin: 0 !important;
