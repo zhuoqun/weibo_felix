@@ -27,6 +27,8 @@
 			<string>weibo_felix-0_1_5.css</string>
 		</array>
 	</dict>
+	<key>Description</key>
+	<string>「微博快修 Weibo Felix」是一个帮你简化新版微博界面的 Chrome 插件，适合想要精简界面却又想保留很多功能的用户。</string>
 	<key>ExtensionInfoDictionaryVersion</key>
 	<string>1.0</string>
 	<key>Permissions</key>
@@ -43,5 +45,7 @@
 	</dict>
 	<key>Update Manifest URL</key>
 	<string>https://raw.github.com/tualatrix/weibo_felix/master/weibo_felix.safariextension/Update.plist</string>
+	<key>Website</key>
+	<string>https://github.com/zhuoqun/weibo_felix</string>
 </dict>
 </plist>
